@@ -9,6 +9,7 @@ import org.hibernate.service.ServiceRegistry;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.tejumvsr.learning.dsa.array.Array;
 import com.tejumvsr.learning.dsa.dp.Recursion;
 import com.tejumvsr.learning.dsa.linkedlist.LinkedList;
 import com.tejumvsr.learning.dsa.queue.Queue;
@@ -25,10 +26,13 @@ import com.tejumvsr.learning.spring.Samsung;
  */
 public class App {
 	public static void main(String[] args) {
-		System.out.println("running main program");
-//		App.springMainFunc(null);
+		App.arrayMainfunc();
 	}
-
+	
+	private static void arrayMainfunc() {
+		Array.twoSumSolution();
+	}
+	
 	private static void hibernateMainFunc() {
 		Student st = new Student();
 		Configuration cfg = new Configuration().configure().addAnnotatedClass(Student.class)

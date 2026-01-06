@@ -1,0 +1,33 @@
+# Eclipse / IDE settings
+.classpath
+.project
+.settings/
+.vscode/
+
+# Build outputs
+target/
+*.jar
+*.war
+*.ear
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# Maven / dependency stuff
+*.log
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Temporary / resources
+src/main/resources/
+target/maven-archiver/
+target/maven-status/
+target/surefire-reports/
+
+
+### VS Code ###
+.vscode/
